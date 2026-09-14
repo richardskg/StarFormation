@@ -48,7 +48,7 @@ sed -i 's#<body>#<body>\
 #' starformation.html
 
 #------------------  copy the notebook to jupyterlite and the html to NephiNumerics ------------------ 
-cp starformation.ipynb $jupyterlite
+cp starformation.ipynb $jupyterlite/content
 cp starformation.html $numerics
 
 #------------------ Now update git ------------------ 
